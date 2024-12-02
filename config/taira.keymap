@@ -48,7 +48,7 @@
  * |------+------+------+------+------+------+-------------------------------------------------+------+------+------+------+------+------|
  * |      |      |      |      |      |   [  |                                                 | LARW | DARW | UARW | RARW |      |      |
  * |------+------+------+------+------+------+-------+-------+-------+-+-------+-------+-------+------+-------------+------+------+------|
- * | Shift|      |      |      |      |   (  |       |  END  | PG_DN | | PG_UP | HOME  |       |   =  |      |      |      |      |      |
+ * | Shift|      |      |      |      |   (  |       |  HOME | PG_DN | | PG_UP |  END  |       |   =  |      |      |      |      |      |
  * |-------------+------+------+------+------+-------+-------+-------+-+-------+-------+-------+------+------+------+------+------+------|
  * | Ctrl | Win  |      | Alt  |      |      | Lower | Space | Shift | |  Bksp | Enter | Raise |             | LARW | DARW | UARW | RARW |
  * .-------------------------------------------------------------------------------------------------------------------------------------.
@@ -57,7 +57,7 @@
 &kp  F11      &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5                                                                                                       &kp  F6       &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F12
 &none         &none         &none         &none         &none         &kp  LBRC                                                                                                     &none         &none         &none         &none         &none         &none
 &none         &none         &none         &none         &none         &kp  LBKT                                                                                                     &kp  LARW     &kp  DARW     &kp  UARW     &kp  RARW     &none         &none    
-&kp  LSHFT    &none         &none         &none         &none         &kp  LPAR                  &kp  END     &kp  PG_DN       &kp  PG_UP &kp  HOME                                 &kp  EQUAL    &none         &none         &none         &none         &none         
+&kp  LSHFT    &none         &none         &none         &none         &kp  LPAR                  &kp  HOME    &kp  PG_DN       &kp  PG_UP &kp  END                                  &kp  EQUAL    &none         &none         &none         &none         &none         
 &kp  LCTRL    &kp  LMETA    &none         &kp  LALT                                &mo  LOWER    &kp  SPACE   &kp  LSHFT       &kp  BSPC  &kp  RET   &mo  RAISE                                                 &kp  LARW     &kp  DARW     &kp  UARW     &kp  RARW
                         >;
                 };
@@ -69,7 +69,7 @@
  * |------+------+------+------+------+------+-------------------------------------------------+------+------+------+------+------+------|
  * |      |      |      |      |      |      |                                                 |   ]  |      |      |      |      |      |
  * |------+------+------+------+------+------+-------+-------+-------+-+-------+-------+-------+------+-------------+------+------+------|
- * | Shift|      |      |      |      |   -  |       |  END  | PG_DN | | PG_UP | HOME  |       |   )  |      |      |      |      |      |
+ * | Shift|      |      |      |      |   -  |       |  HOME | PG_DN | | PG_UP |  END  |       |   )  |      |      |      |      |      |
  * |-------------+------+------+------+------+-------+-------+-------+-+-------+-------+-------+------+------+------+------+------+------|
  * | Ctrl | Win  |      | Alt  |      |      | Lower | Space | Shift | |  Bksp | Enter | Raise |             | LARW | DARW | UARW | RARW |
  * .-------------------------------------------------------------------------------------------------------------------------------------.
@@ -78,7 +78,7 @@
 &kp  F11      &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5                                                                                                       &kp  F6       &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F12
 &none         &none         &none         &none         &none         &none                                                                                                         &kp  RBRC     &none         &none         &none         &none         &none
 &none         &none         &none         &none         &none         &none                                                                                                         &kp  RBKT     &none         &none         &none         &none         &none 
-&kp  LSHFT    &none         &none         &none         &none         &kp MINUS                  &kp  END     &kp  PG_DN       &kp  PG_UP &kp  HOME                                 &kp  RPAR     &none         &none         &none         &none         &none         
+&kp  LSHFT    &none         &none         &none         &none         &kp MINUS                  &kp  HOME    &kp  PG_DN       &kp  PG_UP &kp  END                                  &kp  RPAR     &none         &none         &none         &none         &none         
 &kp  LCTRL    &kp  LMETA    &none         &kp  LALT                                &mo  LOWER    &kp  SPACE   &kp  LSHFT       &kp  BSPC  &kp  RET   &mo  RAISE                                                 &kp  LARW     &kp  DARW     &kp  UARW     &kp  RARW
                         >;
                 };
